@@ -19,9 +19,19 @@ main{
     background-color: white;
 }
 
-.more-articles> section{
+/*.more-articles> section{
     display: inline-block;
     width: 345px;
+}*/
+
+.more-articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section{
+    width: 49%;
 }
 
 h1{
