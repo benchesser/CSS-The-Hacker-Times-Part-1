@@ -14,13 +14,27 @@ body{
     margin: 30px auto;
 }
 
+main{
+    border-bottom: 2px #eee solid;
+    background-color: white;
+}
+
+.more-articles> section{
+    display: inline-block;
+    width: 345px;
+}
+
 h1{
     text-align: center;
     font-family: Abril Fatface;
-    font-size: ;
+    font-size: 3em;
 }
 
 h2{
+    font-family: Roboto Slab;
+}
+
+h4{
     font-family: Roboto Slab;
 }
 
@@ -45,8 +59,11 @@ a{
 
 nav{
     text-align: center;
+    background: white;
     border-top: 1px solid #e3e1e1;
     border-bottom: 1px solid #e3e1e1;
+    position: sticky;
+    top: 0px;
 }
 
 p{
@@ -54,9 +71,12 @@ p{
     padding: 0px 16px;
 }
 
-img{
-    width: 100%;
+img {
+    display: block;
+    margin: 0 auto;
 }
+
+
 /*
 body{
     background-color: #eee;
